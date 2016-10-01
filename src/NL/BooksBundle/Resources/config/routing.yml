@@ -1,0 +1,6 @@
+nl_books_homepage:
+    path:     /
+    defaults: { _controller: NLBooksBundle:Book:index }
+nl_books_addbooks:
+    path:    /add
+    defaults: {_controller: NLBooksBundle:Book:add }

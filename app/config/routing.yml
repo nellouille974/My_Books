@@ -1,0 +1,7 @@
+nl_books:
+    resource: "@NLBooksBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
