@@ -1,7 +1,12 @@
 <html>
+<head>
+    <title>My_Books</title>
+    {% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('bundles/nlbooks/css/style.css') }}" type="text/css" media="all" />
+    {% endblock %}
+</head>
 <body>
     <h1>All books</h1>
-
     <table>
         <thead>
             <tr>
@@ -28,3 +33,5 @@
     </a>
 </body>
 </html>
+
+
